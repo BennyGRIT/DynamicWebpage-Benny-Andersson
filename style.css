@@ -1,0 +1,60 @@
+nav{
+    background-color: grey;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+#active{
+    border: 2px solid red;
+    border-radius: 0.5rem;
+    color: red;
+    text-decoration: none;
+}
+
+nav a:hover{
+color: blue;
+border: 2px solid lightblue;
+border-radius: 0.5rem;
+text-decoration: none;
+
+}
+
+#product1{
+border: 2px solid red;}
+#product2{
+border: 2px solid blue;
+}
+#product3{
+    border: 2px solid purple;
+  
+}
+#product4{
+    border: 2px solid green;
+   
+}
+#product5{
+    border: 2px solid hotpink;
+   
+}
+#product6{
+    border: 2px solid darkblue;
+    
+}
+#product7{
+    border: 2px solid pink;
+    
+}
+#product8{
+    border: 2px solid orange;
+    
+}
+#product9{
+    border: 2px solid darkmagenta;
+    
+}
+#product10{
+    border: 2px solid lightgrey;
+    
+}
+p{
+    color: red;
+}
