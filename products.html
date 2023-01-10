@@ -1,30 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Slutprojekt - Dynamisk Hemsida</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <a href="index.html">Startsidan</a>
-        <a id="active" href="products.html">Produkterna</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+
+      <a href="index.html">Startsidan</a>
+      <a id="active" href="products.html">Produkterna</a>
     </nav>
 
     <div class="container">
-        <div id="product1"><img src="img/1-75192-millennium-falcon-stor.webp" alt=""></div>
-        <div id="product2"><img src="img/2-75252-imperial-star-destroyer-stor.webp" alt=""></div>
-        <div id="product3"><img src="img/3-75257-falcon.webp" alt=""></div>
-        <div id="product4"><img src="img/4-75288-atat.webp" alt=""></div>
-        <div id="product5"><img src="img/5-75306-imperial-probe-droid.webp" alt=""></div>
-        <div id="product6"><img src="img/6-75308-r2d2.webp" alt=""></div>
-        <div id="product7"><img src="img/7-75323-star-wars-droide.webp" alt=""></div>
-        <div id="product8"><img src="img/8-753367-at-te-walker.webp" alt=""></div>
-        <div id="product9"><img src="img/9-75331-razor-crest.webp" alt=""></div>
-        <div id="product10"><img src="img/10-75347-tie-bomber.webp" alt=""></div>
+
+      <div id="product1">
+        <img src="img/1-75192-millennium-falcon-stor.webp" alt="" />
+        <h1 class="h1Products">Millenium Falcon Collector Edition</h1>
+      <p class="theProducts">Den ultimata LEGO® Star Wars Millennium Falcon har landat! Med 7 500 delar är Han Solos supersnabba corellianska skepp fullpackat med de coolaste detaljerna och de roligaste funktionerna. </p>
+      <h3>Pris: 9.500 SEK</h3>
+      <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+
     </div>
+
+      <div id="product2">
+        <img src="img/2-75252-imperial-star-destroyer-stor.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75252 Imperial Star Destroyer</h1>
+        <p class="theProducts">Bygg och visa upp det galaktiska imperiets ikoniska skepp – Devastator.</p>
+        <h3>Pris: 9.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+
+      </div>
+
+      <div id="product3">
+        <img src="img/3-75257-falcon.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75257 Millennium Falcon</h1>
+        <p class="theProducts">Inspirera barn och vuxna med denna 75257 LEGO® Star Wars™ Millennium Falcon modell.</p> 
+        <h3>Pris: 5.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+
+    </div>
+
+      <div id="product4">
+        <img src="img/4-75288-atat.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75288 AT-AT</h1>
+        <p class="theProducts">Samarbeta med Luke Skywalker på slagfältet på Hoth och utmana general Veers i den mäktiga AT-AT.</p>
+        <h3>Pris: 1.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+  
+      </div>
+
+      <div id="product5">
+        <img src="img/5-75306-imperial-probe-droid.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75306 Imperial Probe Droid</h1>
+        <p class="theProducts">Droiden har rörliga ben och levereras med en genomskinlig, klossbyggd stolpe så att den kan ”sväva” över den byggbara snöscenen.</p>
+        <h3>Pris: 200 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+  
+      </div>
+
+      <div id="product6">
+        <img src="img/6-75308-r2d2.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75308 R2-D2</h1>
+        <p class="theProducts">Denna coola byggmodell innehåller ett byggbart visningsställ med en informationsskylt.</p>
+        <h3>Pris: 10.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+  
+      </div>
+
+      <div id="product7">
+        <img src="img/7-75323-star-wars-droide.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75323 The Justifier</h1>
+        <p class="theProducts">Barn från 9 år kan återskapa episka berättelser från Star Wars: The Bad Batch med denna fantastiska modell i LEGO® klossar av prisjägaren Cad Banes rymdskepp, The Justifier (75323).</p>
+        <h3>Pris: 10.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+  
+      </div>
+
+      <div id="product8">
+        <img src="img/8-753367-at-te-walker.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75337 AT-TE Walker</h1>
+        <p class="theProducts">Återskapa slaget om Utapau med denna fantastiska LEGO® Star Wars™ AT-TE Walker (75337).</p>
+        <h3>Pris: 10.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+  
+      </div>
+      <!-- <div></div> -->
+
+      <div id="product9">
+        <img src="img/9-75331-razor-crest.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75331 Razor Crest</h1>
+        <p class="theProducts">Föreställ dig livet som en galaktisk prisjägare medan du bygger och visar upp en LEGO Star Wars™ Ultimate Collector Series version av rymdskeppet The Razor Crest (75331).</p>
+        <h3>Pris: 10.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+  
+      </div>
+
+      <div id="product10">
+        <img src="img/10-75347-tie-bomber.webp" alt="" />
+        <h1 class="h1Products">Star Wars 75347 TIE Bomber</h1>
+        <p class="theProducts">Fans av Rymdimperiet slår tillbaka kan iscensätta imperieuppdrag för att besegra Rebellalliansen med denna TIE Bomber (75347) starfighter i LEGO klossar.</p>
+        <h3>Pris: 10.000 SEK</h3>
+        <button onclick="myBuy()" class="buyButton">Köp nu</button> 
+  
+      </div>
+    </div>
+
 </body>
 </html>
