@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Slutprojekt - Dynamisk Hemsida</title>
   </head>
   <body>
@@ -13,6 +15,23 @@
         <a id="active" href="index.html">Startsidan</a>
         <a href="products.html">Produkterna</a>
     </nav>
+    <div class="mobile-container">
+        <div class="topnav">
+            
+            <a href="#" class="active">Hamburgermenyn</a>
+            
+            <div id="myLinks">
+                <a href="index.html">Startsidan</a>
+                <a id="active" href="products.html">Produkterna</a>
+                <button id="isItDarkMode">Är det light eller darkmode?</button>
+            </div>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+    
     <p>
       Tjena mannen, detta är main. Klicka på länken här, eller i menyn för att
       komma till produkterna.
