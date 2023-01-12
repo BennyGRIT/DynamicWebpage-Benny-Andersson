@@ -30,11 +30,15 @@ nav a:hover {
 
 img{
        border-radius: 0.5rem;
- 
+}
+.flags{
+ height: 1rem;
+ width: auto;
+ border-radius: 0;
 }
 
 img:hover{
-    rotate:180deg;
+    rotate:360deg;
     transition: rotate 3375ms ease-in-out;
 
     color: green;
