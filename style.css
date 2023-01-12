@@ -29,8 +29,18 @@ nav a:hover {
 }
 
 img{
+       border-radius: 0.5rem;
+ 
+}
+
+img:hover{
+    rotate:180deg;
+    transition: rotate 3375ms ease-in-out;
+
+    color: green;
     border-radius: 0.5rem;
 }
+
 
 .products{
     border: 2px solid grey;
@@ -38,8 +48,9 @@ img{
     text-align: center;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: 1rem;  
 }
+
 
 /* #product1 {
   border: 2px solid grey;
@@ -103,6 +114,16 @@ p {
   color: red;
 }
 
+.darkModeClass{
+background-color: black;
+color: linen;
+}
+
+.lightModeClass{
+    background-color: linen;
+    color: black;
+}
+
 @media screen and (max-width: 1080px) {
   .container {
     display: grid;
@@ -120,12 +141,12 @@ p {
 }
 
 @media screen and (max-width: 740px) {
-  * {
+  /* * {
     color-scheme: dark;
-}
+} */
 .container {
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
+    flex-flow: column;
     border: solid 4px blue;
     justify-content: center;
   }
