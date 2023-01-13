@@ -117,8 +117,8 @@ const allProducts = [
   product10,
 ];
 
-function englishFunction(){
-  console.log('Ändra till Engelska')
+function englishFunction() {
+  console.log("Ändra till Engelska");
   allProducts[0].innerHTML = textInEnglish[0];
   allProducts[1].innerHTML = textInEnglish[1];
   allProducts[2].innerHTML = textInEnglish[2];
@@ -131,7 +131,7 @@ function englishFunction(){
   allProducts[9].innerHTML = textInEnglish[9];
 }
 
-function swedishFunction(){
+function swedishFunction() {
   allProducts[0].innerHTML = textInSwedish[0];
   allProducts[1].innerHTML = textInSwedish[1];
   allProducts[2].innerHTML = textInSwedish[2];
@@ -143,7 +143,6 @@ function swedishFunction(){
   allProducts[8].innerHTML = textInSwedish[8];
   allProducts[9].innerHTML = textInSwedish[9];
 }
-
 
 if (lang === "sv-SE") {
   console.log("Tjenare mannen IF på svenska");
@@ -166,11 +165,9 @@ if (lang === "sv-SE") {
   allProducts[9].innerHTML = textInEnglish[9];
 }
 
-function fuckIt(){
- const rootBeer =  document.querySelector('body')
- rootBeer.setAttribute('class', 'fuckItClass')
- alert('Din mammas Smoothie!!!!')
+function fuckIt() {
+  const rootBeer = document.querySelector("body");
+  rootBeer.setAttribute("class", "fuckItClass");
+  alert(`Din mammas Smoothie!!!!
+Klicka OK... ok?`);
 }
-// let myGetItem = window.localStorage.getItem("lightOrDarkMode");
-
-// theBody.setAttribute("class", myGetItem);

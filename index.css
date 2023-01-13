@@ -1,0 +1,74 @@
+.fuckIt {
+  border: solid 5px rgb(5, 177, 5);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: rgb(243, 3, 3);
+}
+
+.fuckItClass {
+  background-color: red;
+  rotate: 360deg;
+  transition: rotate 7375ms ease-in-out;
+  position: relative;
+  -webkit-animation: mymove 1s;
+          animation: mymove 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes mymove {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: rgb(243, 3, 3);
+  }
+  25% {
+    top: 0px;
+    left: 500px;
+    background: rgb(3, 3, 238);
+  }
+  50% {
+    top: 1000px;
+    left: 2000px;
+    background: rgb(239, 239, 9);
+  }
+  75% {
+    top: 300px;
+    left: -500px;
+    background: rgb(5, 177, 5);
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background: rgb(243, 3, 3);
+  }
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+    left: 0px;
+    background: rgb(243, 3, 3);
+  }
+  25% {
+    top: 0px;
+    left: 500px;
+    background: rgb(3, 3, 238);
+  }
+  50% {
+    top: 1000px;
+    left: 2000px;
+    background: rgb(239, 239, 9);
+  }
+  75% {
+    top: 300px;
+    left: -500px;
+    background: rgb(5, 177, 5);
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background: rgb(243, 3, 3);
+  }
+}/*# sourceMappingURL=index.css.map */
