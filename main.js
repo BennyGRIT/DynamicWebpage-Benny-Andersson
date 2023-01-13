@@ -80,6 +80,19 @@ const textInEnglish = [
   "Fans of The Empire Strikes Back can stage Imperial missions to defeat the Rebel Alliance with this TIE Bomber (75347) LEGO brick starfighter.",
 ];
 
+const textInSwedish = [
+  "Den ultimata LEGO® Star Wars Millennium Falcon har landat! Med 7 500 delar är Han Solos supersnabba corellianska skepp fullpackat med de coolaste detaljerna och de roligaste funktionerna.",
+  "Bygg och visa upp det galaktiska imperiets ikoniska skepp – Devastator.",
+  "Inspirera barn och vuxna med denna 75257 LEGO® Star Wars™ Millennium Falcon modell.",
+  "Samarbeta med Luke Skywalker på slagfältet på Hoth och utmana general Veers i den mäktiga AT-AT.",
+  "Droiden har rörliga ben och levereras med en genomskinlig, klossbyggd stolpe så att den kan ”sväva” över den byggbara snöscenen.",
+  "Denna coola byggmodell innehåller ett byggbart visningsställ med en informationsskylt.",
+  "Barn från 9 år kan återskapa episka berättelser från Star Wars: The Bad Batch med denna fantastiska modell i LEGO® klossar av prisjägaren Cad Banes rymdskepp, The Justifier (75323).",
+  "Återskapa slaget om Utapau med denna fantastiska LEGO® Star Wars™ AT-TE Walker (75337).",
+  "Föreställ dig livet som en galaktisk prisjägare medan du bygger och visar upp en LEGO Star Wars™ Ultimate Collector Series version av rymdskeppet The Razor Crest (75331).",
+  "Fans av Rymdimperiet slår tillbaka kan iscensätta imperieuppdrag för att besegra Rebellalliansen med denna TIE Bomber (75347) starfighter i LEGO klossar.",
+];
+
 const product1 = document.getElementById("product1text");
 const product2 = document.getElementById("product2text");
 const product3 = document.getElementById("product3text");
@@ -119,7 +132,16 @@ function englishFunction(){
 }
 
 function swedishFunction(){
-  location.reload()
+  allProducts[0].innerHTML = textInSwedish[0];
+  allProducts[1].innerHTML = textInSwedish[1];
+  allProducts[2].innerHTML = textInSwedish[2];
+  allProducts[3].innerHTML = textInSwedish[3];
+  allProducts[4].innerHTML = textInSwedish[4];
+  allProducts[5].innerHTML = textInSwedish[5];
+  allProducts[6].innerHTML = textInSwedish[6];
+  allProducts[7].innerHTML = textInSwedish[7];
+  allProducts[8].innerHTML = textInSwedish[8];
+  allProducts[9].innerHTML = textInSwedish[9];
 }
 
 
