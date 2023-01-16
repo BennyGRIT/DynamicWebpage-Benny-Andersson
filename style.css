@@ -128,6 +128,16 @@ footer {
 margin-right: 5rem;
 }
 
+.buyButton:hover {
+  -ms-transform: scaleY(2); 
+  transform: scaleY(2);
+}
+
+a:hover{
+  transform: skewX(20deg);
+
+}
+
 @media screen and (max-width: 1080px) {
   .container {
     display: grid;
