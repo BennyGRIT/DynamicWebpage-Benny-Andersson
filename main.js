@@ -191,6 +191,11 @@ function englishFunction() {
   menus[9].innerHTML = menuEngText[9]
   menus[10].innerHTML = menuEngText[10]
   menus[11].innerHTML = menuEngText[11]
+
+  const buyButton = document.querySelectorAll('.buyButton');
+  for (i=0; i<buyButton.length; i++){
+    buyButton[i].innerHTML= 'Buy it now'
+  }
   }
 
 function swedishFunction() {
@@ -218,6 +223,11 @@ function swedishFunction() {
   menus[10].innerHTML = menuSwedishText[10]
   menus[11].innerHTML = menuSwedishText[11]
 
+  const buyButton = document.querySelectorAll('.buyButton');
+  for (i=0; i<buyButton.length; i++){
+    buyButton[i].innerHTML= 'Köp nu'
+  }
+
 }
 
 if (lang === "sv-SE") {
@@ -225,7 +235,8 @@ if (lang === "sv-SE") {
 } else if (lang === "en-US") {
   console.log("Hello motherTRUCKER!!! if else på engelska");
 
-  // Benny fattar inte varför nedanstående loop inte fungerar. Han får snart ett damp-anfall
+  // Benny fattar inte varför nedanstående loop inte fungerar. Han får snart ett damp-anfall, så han kör utan en FÅRloop
+  
   //   for (let i = 0; i<allProducts.length; i++) {
   //     allProducts[i].innerHMTL=textInEnglish[i]
   // }
@@ -252,6 +263,10 @@ menus[8].innerHTML = menuEngText[8]
 menus[9].innerHTML = menuEngText[9]
 menus[10].innerHTML = menuEngText[10]
 menus[11].innerHTML = menuEngText[11]
+const buyButton = document.querySelectorAll('.buyButton');
+for (i=0; i<buyButton.length; i++){
+  buyButton[i].innerHTML= 'Buy it now'
+}
 
 }
 
