@@ -6,35 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Slutprojekt - Dynamisk Hemsida</title>
   </head>
   <body>
     <nav>
-        <a id="active" href="index.html">Startsidan</a>
-        <a href="products.html">Produkterna</a>
-        <a href="#" class="englishLanguage">Ändra språk till Engelska</a>
-        <img class="flags" src="/img/English.webp" alt="Eng" />
-        <a class="englishLanguage" href="#">Ändra språk till Svenska</a>
-        <img class="flags" src="/img/Sweden.png" alt="Swe" />
+      <img
+        class="icon"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png"
+        alt="legoicon"
+      />
+      <a href="index.html" id="menu0">Startsidan</a>
+      <a id="menu1" href="products.html">Produkterna</a>
+      <a onclick="englishFunction()" href="#" class="englishLanguage" id="menu2"
+        >Ändra språk till Engelska</a
+      >
+      <img
+        onclick="englishFunction()"
+        class="flags"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1920px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
+        alt="Eng"
+      />
+      <a onclick="swedishFunction()" class="swedishLanguage" href="#" id="menu3"
+        >Ändra språk till Svenska</a
+      >
+      <img
+        onclick="swedishFunction()"
+        class="flags"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png"
+        alt="Swe"
+      />
+      <a class="fuckIt" onclick="fuckIt()" href="#" id="menu4"
+        >Klicka inte här</a
+      >
     </nav>
+
     <div class="mobile-container">
-        <div class="topnav">
-            <a href="#" class="active">Hamburgermenyn</a>
-            <div id="myLinks">
-                <a href="index.html">Startsidan</a>
-                <a id="active" href="products.html">Produkterna</a>
-                <img class="flags" src="/img/English.webp" alt="Eng" />
-                <img class="flags" src="/img/Sweden.png" alt="Swe" />
-            </div>
-            
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
+      <div class="topnav">
+        <img
+          class="icon"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png"
+          alt="legoicon"
+        />
+
+        <div id="myLinks">
+          <a href="index.html" id="menu5">Startsidan</a>
+          <a href="products.html" id="menu6">Produkterna</a>
+          <img
+            onclick="englishFunction()"
+            class="flags"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1920px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
+            alt="Eng"
+          />
+          <img
+            onclick="swedishFunction()"
+            class="flags"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png"
+            alt="Swe"
+          />
+          <a class="fuckIt" onclick="fuckIt()" href="#" id="menu7"
+            >Klicka inte här</a
+          >
         </div>
-    
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
     <p>
       Tjena mannen, detta är main. Klicka på länken här, eller i menyn för att
       komma till produkterna.

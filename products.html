@@ -17,9 +17,9 @@
   <body>
     <nav>
       <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png" alt="legoicon" />
-      <a href="index.html">Startsidan</a>
-      <a id="active" href="products.html">Produkterna</a>
-      <a onclick="englishFunction()" href="#" class="englishLanguage"
+      <a href="index.html" id="menu0">Startsidan</a>
+      <a id="menu1" href="products.html">Produkterna</a>
+      <a onclick="englishFunction()" href="#" class="englishLanguage"  id="menu2"
         >Ändra språk till Engelska</a
       >
       <img
@@ -28,7 +28,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1920px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
         alt="Eng"
       />
-      <a onclick="swedishFunction()" class="swedishLanguage" href="#"
+      <a onclick="swedishFunction()" class="swedishLanguage" href="#"  id="menu3"
         >Ändra språk till Svenska</a
       >
       <img
@@ -37,7 +37,7 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png"
         alt="Swe"
       />
-      <a class="fuckIt" onclick="fuckIt()" href="#">Klicka inte här</a>
+      <a class="fuckIt" onclick="fuckIt()" href="#" id="menu4">Klicka inte här</a>
     </nav>
 
     <div class="mobile-container">
@@ -45,11 +45,11 @@
         <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png" alt="legoicon" />
 
         <div id="myLinks">
-          <a href="index.html">Startsidan</a>
-          <a id="active" href="products.html">Produkterna</a>
-          <img class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1920px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" alt="Eng" />
-          <img class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png" alt="Swe" />
-          <a class="fuckIt" onclick="fuckIt()" href="#">Klicka inte här</a>
+          <a href="index.html" id="menu5">Startsidan</a>
+          <a href="products.html" id="menu6">Produkterna</a>
+          <img onclick="englishFunction()" class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1920px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" alt="Eng" />
+          <img onclick="swedishFunction()" class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1280px-Flag_of_Sweden.svg.png" alt="Swe" />
+          <a class="fuckIt" onclick="fuckIt()" href="#"  id="menu7">Klicka inte här</a>
 
         </div>
 
@@ -193,15 +193,15 @@
       </div>
     </div>
     <footer>
-      <p>Kontaktuppgifter: 0706-666666, Benny</p>
+      <p  id="menu8">Kontaktuppgifter: 0706-666666, Benny</p>
       <a
-        href="https://www.google.se/maps/place/H%C3%A4ljen%C3%A4sv%C3%A4gen+4,+261+73+H%C3%A4ljarp/@55.8602862,12.8984643,17z/data=!3m1!4b1!4m5!3m4!1s0x4653b649b0dfe675:0xa69423f421581f1!8m2!3d55.8602862!4d12.900653"
+        href="https://www.google.se/maps/place/H%C3%A4ljen%C3%A4sv%C3%A4gen+4,+261+73+H%C3%A4ljarp/@55.8602862,12.8984643,17z/data=!3m1!4b1!4m5!3m4!1s0x4653b649b0dfe675:0xa69423f421581f1!8m2!3d55.8602862!4d12.900653" id="menu9"
         >Karta</a
       >
-      <a href="https://www.facebook.com/benny.andersson.9/"
+      <a href="https://www.facebook.com/benny.andersson.9/" id="menu10"
         >Följ oss på Facebook</a
       >
-      <a href="https://www.linkedin.com/in/benny-andersson/"
+      <a href="https://www.linkedin.com/in/benny-andersson/" id="menu11"
         >Följ mig på linkedin</a
       >
     </footer>

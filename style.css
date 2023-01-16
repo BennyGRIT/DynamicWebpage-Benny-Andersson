@@ -2,16 +2,15 @@
   display: none;
 }
 nav {
-  background-color: black;
+  background-color: #555;
   padding: 1rem;
   font-size: 1.5rem;
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
-  border-bottom: red 1px solid;
-}
+  justify-content: space-around;
+  }
 
 #active {
   border: 2px solid red;
@@ -87,7 +86,7 @@ img:hover {
 }
 
 footer {
-  background-color: black;
+  background-color: #555;
   color: red;
   padding: 1rem;
   font-size: 1.5rem;
@@ -97,6 +96,8 @@ footer {
   display: flex;
   justify-content: space-around;
   border-bottom: red 1px solid;
+  height: 2rem;
+  align-items: center;
 }
 
 .icon:hover {
@@ -121,6 +122,10 @@ footer {
     left: 0px;
     background: green;
   }
+}
+
+#menu4{
+margin-right: 5rem;
 }
 
 @media screen and (max-width: 1080px) {

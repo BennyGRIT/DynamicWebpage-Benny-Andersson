@@ -117,9 +117,58 @@ const allProducts = [
   product10,
 ];
 
+const menuEngText = [
+  "Start",
+  "Products",
+  "To English",
+  "To Swedish",
+  "Do not click Here!!",
+  "Start",
+  "Products",
+  "Do not click Here!!",
+  "Contact: 0704-294669",
+  "Map",
+  "Follow us on Facebook",
+  "Follow me on Linkedin",
+];
+
+const menus = [
+  document.getElementById("menu0"),
+  document.getElementById("menu1"),
+  document.getElementById("menu2"),
+  document.getElementById("menu3"),
+  document.getElementById("menu4"),
+  document.getElementById("menu5"),
+  document.getElementById("menu6"),
+  document.getElementById("menu7"),
+  document.getElementById("menu8"),
+  document.getElementById("menu9"),
+  document.getElementById("menu10"),
+  document.getElementById("menu11")
+]
+
+const menuSwedishText = [
+  'Startsidan',
+  'Produkterna',
+  'Ändra språk till Engelska',
+  'Ändra språk till Svenska',
+  'Klicka inte här',
+  'Startsidan',
+  'Produkterna',
+  'Klicka inte här',
+  'Kontaktuppgifter: 0706-666666, Benny',
+  'Karta',
+  'Följ oss på Facebook',
+  'Följ mig på Linkedin'
+]
+
+console.log(menus[0])
+console.log(allProducts[1])
+
+
 function englishFunction() {
   console.log("Ändra till Engelska");
-  allProducts[0].innerHTML = textInEnglish[0];
+    allProducts[0].innerHTML =textInEnglish[0];
   allProducts[1].innerHTML = textInEnglish[1];
   allProducts[2].innerHTML = textInEnglish[2];
   allProducts[3].innerHTML = textInEnglish[3];
@@ -129,7 +178,20 @@ function englishFunction() {
   allProducts[7].innerHTML = textInEnglish[7];
   allProducts[8].innerHTML = textInEnglish[8];
   allProducts[9].innerHTML = textInEnglish[9];
-}
+
+  menus[0].innerHTML = menuEngText[0];
+  menus[1].innerHTML = menuEngText[1]
+  menus[2].innerHTML = menuEngText[2]
+  menus[3].innerHTML = menuEngText[3]
+  menus[4].innerHTML = menuEngText[4]
+  menus[5].innerHTML = menuEngText[5]
+  menus[6].innerHTML = menuEngText[6]
+  menus[7].innerHTML = menuEngText[7]
+  menus[8].innerHTML = menuEngText[8]
+  menus[9].innerHTML = menuEngText[9]
+  menus[10].innerHTML = menuEngText[10]
+  menus[11].innerHTML = menuEngText[11]
+  }
 
 function swedishFunction() {
   allProducts[0].innerHTML = textInSwedish[0];
@@ -142,6 +204,20 @@ function swedishFunction() {
   allProducts[7].innerHTML = textInSwedish[7];
   allProducts[8].innerHTML = textInSwedish[8];
   allProducts[9].innerHTML = textInSwedish[9];
+
+  menus[0].innerHTML = menuSwedishText[0];
+  menus[1].innerHTML = menuSwedishText[1]
+  menus[2].innerHTML = menuSwedishText[2]
+  menus[3].innerHTML = menuSwedishText[3]
+  menus[4].innerHTML = menuSwedishText[4]
+  menus[5].innerHTML = menuSwedishText[5]
+  menus[6].innerHTML = menuSwedishText[6]
+  menus[7].innerHTML = menuSwedishText[7]
+  menus[8].innerHTML = menuSwedishText[8]
+  menus[9].innerHTML = menuSwedishText[9]
+  menus[10].innerHTML = menuSwedishText[10]
+  menus[11].innerHTML = menuSwedishText[11]
+
 }
 
 if (lang === "sv-SE") {
@@ -163,6 +239,20 @@ if (lang === "sv-SE") {
   allProducts[7].innerHTML = textInEnglish[7];
   allProducts[8].innerHTML = textInEnglish[8];
   allProducts[9].innerHTML = textInEnglish[9];
+
+  menus[0].innerHTML = menuEngText[0];
+menus[1].innerHTML = menuEngText[1]
+menus[2].innerHTML = menuEngText[2]
+menus[3].innerHTML = menuEngText[3]
+menus[4].innerHTML = menuEngText[4]
+menus[5].innerHTML = menuEngText[5]
+menus[6].innerHTML = menuEngText[6]
+menus[7].innerHTML = menuEngText[7]
+menus[8].innerHTML = menuEngText[8]
+menus[9].innerHTML = menuEngText[9]
+menus[10].innerHTML = menuEngText[10]
+menus[11].innerHTML = menuEngText[11]
+
 }
 
 function fuckIt() {
