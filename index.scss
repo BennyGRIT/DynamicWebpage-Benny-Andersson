@@ -2,9 +2,10 @@ $red-bg : rgb(243, 3, 3);
 $blue-bg: rgb(3, 3, 238);
 $yellow-bg: rgb(239, 239, 9);
 $green-bg: rgb(5, 177, 5);
+$hotpink-c: rgb(255, 105, 180);
 
 .fuckIt {
-    border: solid 5px $green-bg;
+    border: solid 5px $hotpink-c;
     border-radius: 0.5rem;
     font-weight: bold;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -27,72 +28,24 @@ $green-bg: rgb(5, 177, 5);
         left: 0px;
         background: $red-bg;
     }
-
     25% {
         top: 0px;
         left: 500px;
         background: $blue-bg;
     }
-
     50% {
         top: 1000px;
         left: 2000px;
         background: $yellow-bg;
     }
-
     75% {
         top: 300px;
         left: -500px;
         background: $green-bg;
     }
-
     100% {
         top: 0px;
         left: 0px;
         background: $red-bg;
     }
-}
-
-
-
-
-.buyButton:hover {
-    background-color: red;
-    rotate: 360deg;
-    transition: rotate 7375ms ease-in-out;
-    position: relative;
-    animation: buttonMove 1s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes buttonMove {
-    0% {
-        top: 0px;
-        left: 0px;
-        background: $red-bg;
-    }
-
-    25% {
-        top: 0px;
-        left: 500px;
-        background: $blue-bg;
-    }
-
-    50% {
-        top: 1000px;
-        left: 2000px;
-        background: $yellow-bg;
-    }
-
-    75% {
-        top: 300px;
-        left: -500px;
-        background: $green-bg;
-    }
-
-    100% {
-        top: 0px;
-        left: 0px;
-        background: $red-bg;
-    }
-}
+};
