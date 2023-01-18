@@ -138,6 +138,12 @@ a:hover{
 
 }
 
+@media screen and (max-width: 1200px) {
+nav{
+  font-size: 1.1rem;
+}
+}
+
 @media screen and (max-width: 1080px) {
   .container {
     display: grid;
@@ -145,6 +151,10 @@ a:hover{
     grid-template-rows: aut auto auto;
     border: solid 4px blue;
     justify-content: center;
+  }
+
+  nav{
+    font-size: 0.8rem;
   }
   img {
     width: 10rem;
@@ -188,6 +198,11 @@ a:hover{
   nav {
     display: none;
   }
+
+  body {
+    margin-top: 0rem;
+  }
+  
 
   .mobile-container {
     display: block;
